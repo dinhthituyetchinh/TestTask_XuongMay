@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Nam4_Ki1\\ThucTap\\Test_ThucTap\\XuongMayBE\\XuongMayBE\\XuongMayBE.csproj": {}
+    "D:\\Test\\TestTask_XuongMay\\XuongMayBE\\XuongMayBE\\XuongMayBE.csproj": {}
   },
   "projects": {
-    "D:\\Nam4_Ki1\\ThucTap\\Test_ThucTap\\XuongMayBE\\XuongMayBE\\XuongMayBE.csproj": {
+    "D:\\Test\\TestTask_XuongMay\\XuongMayBE\\XuongMayBE\\XuongMayBE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Nam4_Ki1\\ThucTap\\Test_ThucTap\\XuongMayBE\\XuongMayBE\\XuongMayBE.csproj",
+        "projectUniqueName": "D:\\Test\\TestTask_XuongMay\\XuongMayBE\\XuongMayBE\\XuongMayBE.csproj",
         "projectName": "XuongMayBE",
-        "projectPath": "D:\\Nam4_Ki1\\ThucTap\\Test_ThucTap\\XuongMayBE\\XuongMayBE\\XuongMayBE.csproj",
+        "projectPath": "D:\\Test\\TestTask_XuongMay\\XuongMayBE\\XuongMayBE\\XuongMayBE.csproj",
         "packagesPath": "C:\\Users\\Gia Ninh\\.nuget\\packages\\",
-        "outputPath": "D:\\Nam4_Ki1\\ThucTap\\Test_ThucTap\\XuongMayBE\\XuongMayBE\\obj\\",
+        "outputPath": "D:\\Test\\TestTask_XuongMay\\XuongMayBE\\XuongMayBE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.33, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.17, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
