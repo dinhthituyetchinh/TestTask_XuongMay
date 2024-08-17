@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using XuongMayBE.Data;
+using XuongMayBE.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,9 @@ builder.Services.AddCors(options => options.AddDefaultPolicy(policy => policy.Al
 builder.Services.AddDbContext<GarmentFactoryContext>(option =>
 { option.UseSqlServer(builder.Configuration.GetConnectionString("GarmentFactory")); });
 
+builder.Services.AddAutoMapper(typeof(Program));
+
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
