@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace XuongMayBE.Models
+namespace XuongMayBE.Data
 {
     public class ProductionLine
     {

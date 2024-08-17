@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using XuongMayBE.Data;
-using XuongMayBE.Models;
 
 [ApiController]
 [Route("api/[controller]")]
