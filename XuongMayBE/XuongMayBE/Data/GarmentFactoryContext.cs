@@ -14,7 +14,7 @@ namespace XuongMayBE.Data
         }
 
         public DbSet<ProductionLine> ProductionLines { get; set; }
-
+        public DbSet<Tasks> Tasks { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)

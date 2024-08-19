@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using XuongMayBE.Data;
 
@@ -10,9 +11,10 @@ using XuongMayBE.Data;
 namespace XuongMayBE.Migrations
 {
     [DbContext(typeof(GarmentFactoryContext))]
-    partial class GarmentFactoryContextModelSnapshot : ModelSnapshot
+    [Migration("20240819062021_AddTaskTable")]
+    partial class AddTaskTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -41,7 +43,7 @@ namespace XuongMayBE.Migrations
                     b.ToTable("ProductionLines");
                 });
 
-            modelBuilder.Entity("XuongMayBE.Data.Tasks", b =>
+            modelBuilder.Entity("XuongMayBE.Data.Task", b =>
                 {
                     b.Property<int>("TaskID")
                         .ValueGeneratedOnAdd()
@@ -63,7 +65,7 @@ namespace XuongMayBE.Migrations
                     b.ToTable("Tasks");
                 });
 
-            modelBuilder.Entity("XuongMayBE.Data.Tasks", b =>
+            modelBuilder.Entity("XuongMayBE.Data.Task", b =>
                 {
                     b.HasOne("XuongMayBE.Data.ProductionLine", "ProductionLine")
                         .WithMany()
