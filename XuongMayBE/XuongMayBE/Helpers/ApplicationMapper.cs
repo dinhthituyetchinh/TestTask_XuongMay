@@ -10,6 +10,7 @@ namespace XuongMayBE.Helpers
         {
             //Map hai chiều
             CreateMap<Product, ProductModels>().ReverseMap();
+            CreateMap<Category, CategoryModels>().ReverseMap();
         }
     }
 }

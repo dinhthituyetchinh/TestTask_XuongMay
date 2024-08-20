@@ -9,6 +9,6 @@ namespace XuongMayBE.Data
         [Key]
         public int Id { get; set; }
         [MaxLength(100)]
-        public string Name { get; set; }
+        public string ?Name { get; set; }
     }
 }

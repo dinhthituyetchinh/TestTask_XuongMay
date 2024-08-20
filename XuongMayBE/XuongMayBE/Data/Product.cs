@@ -15,5 +15,10 @@ namespace XuongMayBE.Data
         public double Price { get; set; }
         [Range(0, 100)]
         public int Quantity { get; set; }
+
+        [ForeignKey("Category")]
+        public int CategoryID { get; set; }
+        // Navigation property
+        public Category? Category { get; set; }
     }
 }

@@ -1,14 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using XuongMayBE.Models;
 using XuongMayBE.Repositories;
 
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
-using XuongMayBE.Data;
 
 namespace XuongMayBE.Controllers
 {
@@ -27,7 +21,7 @@ namespace XuongMayBE.Controllers
         {
             try
             {
-                return Ok(_productRepository.GetAllProductAsync());
+                return Ok(await _productRepository.GetAllProductAsync());
 
             }catch
             {
@@ -40,7 +34,38 @@ namespace XuongMayBE.Controllers
             var p = await _productRepository.GetProductByIdAsync(id);
             return p == null ? NotFound() : Ok(p);
         }
-     
-    
+        [HttpPost]
+        public async Task<IActionResult> AddNewProduct(ProductModels productModels)
+        {
+            try
+            {
+                var newProdID = await _productRepository.AddProductAsync(productModels);
+                return CreatedAtAction(nameof(getProductByID), new { controller = "Products", newProdID }, newProdID);
+                ////Cách 2:
+                //var p = await _productRepository.GetProductByIdAsync(newProdID);
+                //return p == null ? NotFound() : Ok(p);
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateProduct(int id, ProductModels productModels)
+        {
+            if(id != productModels.Id)
+            {
+                return NotFound();
+            }    
+            await _productRepository.UpdateProductAsync(id, productModels);
+            return Ok();
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct([FromRoute]int id)
+        {
+
+            await _productRepository.DeleteProductAsync(id);
+            return Ok();
+        }
     }
 }

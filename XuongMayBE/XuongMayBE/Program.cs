@@ -16,9 +16,14 @@ builder.Services.AddCors(options => options.AddDefaultPolicy(policy => policy.Al
 builder.Services.AddDbContext<GarmentFactoryContext>(option =>
 { option.UseSqlServer(builder.Configuration.GetConnectionString("GarmentFactory")); });
 
+// Đăng kí sử dụng AutoMapper
 builder.Services.AddAutoMapper(typeof(Program));
 
+//Đăng kí class ProductRepository implement cho IProductRepository
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+//
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
