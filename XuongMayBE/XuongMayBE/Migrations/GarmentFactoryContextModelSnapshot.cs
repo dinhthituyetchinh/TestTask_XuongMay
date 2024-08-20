@@ -78,6 +78,25 @@ namespace XuongMayBE.Migrations
 
                     b.Navigation("Category");
                 });
+            modelBuilder.Entity("XuongMayBE.Models.ProductionLine", b =>
+                {
+                    b.Property<int>("LineID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LineID"), 1L, 1);
+
+                    b.Property<string>("LineName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("WorkerCount")
+                        .HasColumnType("int");
+
+                    b.HasKey("LineID");
+
+                    b.ToTable("ProductionLines");
+                });
 #pragma warning restore 612, 618
         }
     }
