@@ -78,7 +78,7 @@ namespace XuongMayBE.Migrations
 
                     b.Navigation("Category");
                 });
-            modelBuilder.Entity("XuongMayBE.Models.ProductionLine", b =>
+            modelBuilder.Entity("XuongMayBE.Data.ProductionLine", b =>
                 {
                     b.Property<int>("LineID")
                         .ValueGeneratedOnAdd()
@@ -129,6 +129,38 @@ namespace XuongMayBE.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Users");
+                });
+            modelBuilder.Entity("XuongMayBE.Data.Tasks", b =>
+                {
+                    b.Property<int>("TaskID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TaskID"), 1L, 1);
+
+                    b.Property<int>("LineID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TaskName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("TaskID");
+
+                    b.HasIndex("LineID");
+
+                    b.ToTable("Tasks");
+                });
+
+            modelBuilder.Entity("XuongMayBE.Data.Tasks", b =>
+                {
+                    b.HasOne("XuongMayBE.Data.ProductionLine", "ProductionLine")
+                        .WithMany()
+                        .HasForeignKey("LineID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ProductionLine");
                 });
 #pragma warning restore 612, 618
         }
