@@ -21,5 +21,5 @@ namespace XuongMayBE.Data
         // Navigation property
         public Category? Category { get; set; }
     }
-
 }
+

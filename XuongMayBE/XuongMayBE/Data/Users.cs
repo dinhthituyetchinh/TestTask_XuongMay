@@ -21,7 +21,7 @@ namespace XuongMayBE.Models
 
         public DateTime CreateTime { get; private set; }
 
-        public DateTime ModifyTime { get; private set; }
+        public DateTime ModifyTime { get; private set; } 
 
         public string RoleID { get; set; }
 

@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using XuongMayBE.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -83,13 +83,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
 
-app.UseAuthorization();
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
 
 // Redirects HTTP requests to HTTPS.
 app.UseHttpsRedirection();

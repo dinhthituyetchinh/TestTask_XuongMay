@@ -1,4 +1,4 @@
-
+using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -14,7 +14,6 @@ namespace XuongMayBE.Migrations
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
-#pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "6.0.33")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
@@ -98,7 +97,7 @@ namespace XuongMayBE.Migrations
 
                     b.ToTable("ProductionLines");
                 });
-                 modelBuilder.Entity("XuongMayBE.Models.Users", b =>
+            modelBuilder.Entity("XuongMayBE.Models.Users", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
