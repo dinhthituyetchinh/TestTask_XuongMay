@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using XuongMayBE.Models;
 
 namespace XuongMayBE.Data
 {
@@ -39,6 +39,7 @@ namespace XuongMayBE.Data
         #region Dbset
         public DbSet<Product>? Products { get; set; }
         public DbSet<Category>? Categories { get; set; }
+        public DbSet<Users> Users { get; set; }
         #endregion
 
     }  
