@@ -1,0 +1,270 @@
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\appsettings.Development.json
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\appsettings.json
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.exe
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.deps.json
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.runtimeconfig.json
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.pdb
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.AssemblyReference.cache
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.AssemblyInfoInputs.cache
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.AssemblyInfo.cs
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.CoreCompileInputs.cache
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.MvcApplicationPartsAssemblyInfo.cs
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.MvcApplicationPartsAssemblyInfo.cache
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets.build.json
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets.development.json
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\scopedcss\bundle\XuongMayBE.styles.css
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.CopyComplete
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\refint\XuongMayBE.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.pdb
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.genruntimeconfig.cache
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\ref\XuongMayBE.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Humanizer.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\appsettings.json
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.exe
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.deps.json
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.runtimeconfig.json
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.pdb
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets\msbuild.XuongMayBE.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets\msbuild.build.XuongMayBE.props
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.XuongMayBE.props
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.XuongMayBE.props
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\scopedcss\bundle\XuongMayBE.styles.css
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.CopyComplete
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\refint\XuongMayBE.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.pdb
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.genruntimeconfig.cache
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\ref\XuongMayBE.dll
+C:\Users\Admin\OneDrive\Máy tính\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\appsettings.json
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.exe
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.deps.json
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.runtimeconfig.json
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.pdb
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.AssemblyReference.cache
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.AssemblyInfoInputs.cache
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.AssemblyInfo.cs
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets\msbuild.XuongMayBE.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets\msbuild.build.XuongMayBE.props
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.XuongMayBE.props
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.XuongMayBE.props
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\scopedcss\bundle\XuongMayBE.styles.css
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.Up2Date
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\refint\XuongMayBE.dll
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.pdb
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.genruntimeconfig.cache
+C:\Users\ACER\OneDrive\Desktop\TestTask_XuongMay-main\XuongMayBE\XuongMayBE\obj\Debug\net6.0\ref\XuongMayBE.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.AssemblyReference.cache
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.AssemblyInfoInputs.cache
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.AssemblyInfo.cs
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\refint\XuongMayBE.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.pdb
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\appsettings.json
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.exe
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.deps.json
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.runtimeconfig.json
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.pdb
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets\msbuild.XuongMayBE.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets\msbuild.build.XuongMayBE.props
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.XuongMayBE.props
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.XuongMayBE.props
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\scopedcss\bundle\XuongMayBE.styles.css
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.Up2Date
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.genruntimeconfig.cache
+C:\Users\ACER\OneDrive\Desktop\MatchCode\XuongMayBE\XuongMayBE\obj\Debug\net6.0\ref\XuongMayBE.dll
