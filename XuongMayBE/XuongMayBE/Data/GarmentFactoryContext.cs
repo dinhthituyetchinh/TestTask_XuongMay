@@ -1,8 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 namespace XuongMayBE.Data
 {
-    public class GarmentFactoryContext : DbContext
+    public class GarmentFactoryContext : IdentityDbContext<ApplicationUser> 
     {
+
         public GarmentFactoryContext(DbContextOptions<GarmentFactoryContext> option) : base(option)
         {
 
@@ -14,5 +16,5 @@ namespace XuongMayBE.Data
         #endregion
 
     }
-
+   
 }

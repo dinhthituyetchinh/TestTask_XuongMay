@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
 namespace XuongMayBE.Data
@@ -9,8 +9,8 @@ namespace XuongMayBE.Data
         [Key]
         public int Id { get; set; }
         [MaxLength(100)]
-        public string ?Name { get; set; }
-        public string ?Description { get; set; }
+        public string? Name { get; set; }
+        public string? Description { get; set; }
         [Range(0, double.MaxValue)]
         public double Price { get; set; }
         [Range(0, 100)]
@@ -21,4 +21,5 @@ namespace XuongMayBE.Data
         // Navigation property
         public Category? Category { get; set; }
     }
+
 }
