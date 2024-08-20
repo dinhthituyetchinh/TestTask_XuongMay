@@ -1,16 +1,17 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using XuongMayBE.Data;
-using XuongMayBE.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Microsoft.AspNetCore.Identity;
+using XuongMayBE.Repositories;
+using XuongMayBE.Service;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 // Add services to the container.
-
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -32,6 +33,11 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 builder.Services.AddCors(options => options.AddDefaultPolicy(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
 
+builder.Services.AddCors(options => options.AddDefaultPolicy(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
+
+// Configures the application's DbContext with a SQL Server database connection.
+builder.Services.AddDbContext<GarmentFactoryContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("GarmentFactory")));
 
 // Sets up ASP.NET Core Identity with Entity Framework Core for storing user data.
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
@@ -41,6 +47,13 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 // Registers the AccountRepository with a scoped lifetime, ensuring a new instance is created per request.
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+
+
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IOrderDetailRepository, OrderDetailRepository>();
+builder.Services.AddScoped<IOrderDetailService, OrderDetailService>();
 // Configures authentication using JWT Bearer tokens.
 builder.Services.AddAuthentication(options =>
 {
@@ -78,6 +91,13 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+// Redirects HTTP requests to HTTPS.
+app.UseHttpsRedirection();
+
+// Enables authorization middleware.
+app.UseAuthorization();
+
+// Maps controllers to endpoints.
 app.MapControllers();
 
 app.Run();

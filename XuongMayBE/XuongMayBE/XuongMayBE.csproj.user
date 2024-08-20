@@ -11,4 +11,12 @@
 		<WebStackScaffolding_DbContextTypeFullName>XuongMayBE.Data.GarmentFactoryContext</WebStackScaffolding_DbContextTypeFullName>
 		<WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
 	</PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
+    <Controller_SelectedScaffolderID>ApiControllerEmptyScaffolder</Controller_SelectedScaffolderID>
+    <Controller_SelectedScaffolderCategoryPath>root/Common/Api</Controller_SelectedScaffolderCategoryPath>
+  </PropertyGroup>
 </Project>

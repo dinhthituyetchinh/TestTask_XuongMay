@@ -1,8 +1,8 @@
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using XuongMayBE.Models;
-
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Graph.Models;
 namespace XuongMayBE.Data
 {
     public class GarmentFactoryContext : IdentityDbContext<ApplicationUser> 
@@ -40,6 +40,8 @@ namespace XuongMayBE.Data
         public DbSet<Product>? Products { get; set; }
         public DbSet<Category>? Categories { get; set; }
         public DbSet<Users> Users { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
         #endregion
 
     }  

@@ -13,8 +13,8 @@ namespace XuongMayBE.Data
         public int LineID { get; set; }
         public ProductionLine ?ProductionLine { get; set; }
 
-       // [ForeignKey("Order")]
-       // public int OrderID { get; set; }
-       // public Order Order { get; set; }
+        [ForeignKey("Order")]
+        public int OrderID { get; set; }
+        public Order ?Order { get; set; }
     }
 }

@@ -1,0 +1,505 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\data\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\data\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\data\\garmentfactorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\data\\garmentfactorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\controllers\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\controllers\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\service\\iorderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\service\\iorderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\service\\orderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\service\\orderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\repositories\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\repositories\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\repositories\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\repositories\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\models\\signupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\models\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\models\\signinmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\migrations\\garmentfactorycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\migrations\\garmentfactorycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\migrations\\20240818182622_addidentityauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\migrations\\20240818182622_addidentityauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\migrations\\20240817005339_dbinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\migrations\\20240817005339_dbinit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\danh\\downloads\\intern be .net\\danh\\xuongmaybe\\xuongmaybe\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Controllers\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Controllers\\OrderDetailRepository.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Controllers\\OrderDetailRepository.cs",
+              "RelativeToolTip": "XuongMayBE\\Controllers\\OrderDetailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwDYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:29:08.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "XuongMayBE\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAE8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T07:55:00.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GarmentFactoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Data\\GarmentFactoryContext.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Data\\GarmentFactoryContext.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Data\\GarmentFactoryContext.cs",
+              "RelativeToolTip": "XuongMayBE\\Data\\GarmentFactoryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:07:24.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Program.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Program.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Program.cs",
+              "RelativeToolTip": "XuongMayBE\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T07:41:31.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Service\\IOrderService.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Service\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Service\\IOrderService.cs",
+              "RelativeToolTip": "XuongMayBE\\Service\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T04:31:31.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "XuongMayBE\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwDIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T07:49:08.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Service\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Service\\OrderService.cs",
+              "RelativeToolTip": "XuongMayBE\\Service\\OrderService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T04:31:11.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Data\\Order.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Data\\Order.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Data\\Order.cs",
+              "RelativeToolTip": "XuongMayBE\\Data\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:07:50.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Data\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Data\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Data\\OrderDetail.cs",
+              "RelativeToolTip": "XuongMayBE\\Data\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:23:09.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IOrderDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Service\\IOrderDetailService.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Service\\IOrderDetailService.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Service\\IOrderDetailService.cs",
+              "RelativeToolTip": "XuongMayBE\\Service\\IOrderDetailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:35:11.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "XuongMayBE\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:09:05.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "XuongMayBE\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:41:53.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IOrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Repositories\\IOrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Repositories\\IOrderDetailRepository.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Repositories\\IOrderDetailRepository.cs",
+              "RelativeToolTip": "XuongMayBE\\Repositories\\IOrderDetailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:37:12.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Service\\OrderDetailService.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Service\\OrderDetailService.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Service\\OrderDetailService.cs",
+              "RelativeToolTip": "XuongMayBE\\Service\\OrderDetailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:35:52.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Repositories\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Repositories\\OrderDetailRepository.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Repositories\\OrderDetailRepository.cs",
+              "RelativeToolTip": "XuongMayBE\\Repositories\\OrderDetailRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:37:18.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "XuongMayBE\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T07:48:18.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Repositories\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "XuongMayBE\\Repositories\\AccountRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T07:41:41.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Repositories\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Repositories\\IAccountRepository.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Repositories\\IAccountRepository.cs",
+              "RelativeToolTip": "XuongMayBE\\Repositories\\IAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T07:58:12.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SignUpModel.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Models\\SignUpModel.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Models\\SignUpModel.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Models\\SignUpModel.cs",
+              "RelativeToolTip": "XuongMayBE\\Models\\SignUpModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:42:41.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SignInModel.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Models\\SignInModel.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Models\\SignInModel.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Models\\SignInModel.cs",
+              "RelativeToolTip": "XuongMayBE\\Models\\SignInModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:42:38.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20240818182622_AddIdentityAuthentication.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Migrations\\20240818182622_AddIdentityAuthentication.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Migrations\\20240818182622_AddIdentityAuthentication.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Migrations\\20240818182622_AddIdentityAuthentication.cs",
+              "RelativeToolTip": "XuongMayBE\\Migrations\\20240818182622_AddIdentityAuthentication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:18:11.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20240817005339_DbInit.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Migrations\\20240817005339_DbInit.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Migrations\\20240817005339_DbInit.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Migrations\\20240817005339_DbInit.cs",
+              "RelativeToolTip": "XuongMayBE\\Migrations\\20240817005339_DbInit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:18:10.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Data\\Product.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Data\\Product.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Data\\Product.cs",
+              "RelativeToolTip": "XuongMayBE\\Data\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:42:27.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GarmentFactoryContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Migrations\\GarmentFactoryContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Migrations\\GarmentFactoryContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Migrations\\GarmentFactoryContextModelSnapshot.cs",
+              "RelativeToolTip": "XuongMayBE\\Migrations\\GarmentFactoryContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:19:51.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Models\\Product.cs",
+              "RelativeToolTip": "XuongMayBE\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T07:46:30.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "XuongMayBE\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:42:10.439Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1283,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
