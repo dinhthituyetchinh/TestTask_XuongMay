@@ -5,7 +5,7 @@ namespace XuongMayBE.Repositories
     public interface IProductRepository
     {
         //Lấy tất cả Product
-        Task<List<ProductModels>> GetAllProductAsync();
+        Task<List<ProductModels>> GetAllProductAsync(int page);
         //Lấy một Product
         Task<ProductModels> GetProductByIdAsync(int id);
         //Thêm

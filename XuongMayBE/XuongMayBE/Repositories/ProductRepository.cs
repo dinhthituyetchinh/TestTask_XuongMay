@@ -35,10 +35,10 @@ namespace XuongMayBE.Repositories
             }    
         }
 
-        public async Task<List<ProductModels>> GetAllProductAsync()
+        public async Task<List<ProductModels>> GetAllProductAsync(int page)
         {
             //Lấy danh sách sản phẩm
-            var product = await _context.Products!.ToListAsync();
+            var product = await _context.Products!.Skip((page - 1) * 10).Take(10).ToListAsync();
             return _mapper.Map<List<ProductModels>>(product);
         }
 

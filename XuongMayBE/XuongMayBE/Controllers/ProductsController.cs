@@ -17,11 +17,12 @@ namespace XuongMayBE.Controllers
             _productRepository = productRepository;
         }
         [HttpGet]
-        public async Task<IActionResult> GetAllProducts()
+        public async Task<IActionResult> GetAllProducts(int page)
         {
             try
             {
-                return Ok(await _productRepository.GetAllProductAsync());
+                
+                return Ok(await _productRepository.GetAllProductAsync(page));
 
             }catch
             {
