@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using XuongMayBE.Data;
 
@@ -11,9 +12,10 @@ using XuongMayBE.Data;
 namespace XuongMayBE.Migrations
 {
     [DbContext(typeof(GarmentFactoryContext))]
-    partial class GarmentFactoryContextModelSnapshot : ModelSnapshot
+    [Migration("20240822085504_CreateTasksAndProductionLines")]
+    partial class CreateTasksAndProductionLines
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

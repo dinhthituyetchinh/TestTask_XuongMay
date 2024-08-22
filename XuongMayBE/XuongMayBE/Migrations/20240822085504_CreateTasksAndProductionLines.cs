@@ -4,10 +4,24 @@
 
 namespace XuongMayBE.Migrations
 {
-    public partial class AddTaskTable : Migration
+    public partial class CreateTasksAndProductionLines : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "ProductionLines",
+                columns: table => new
+                {
+                    LineID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    LineName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    WorkerCount = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ProductionLines", x => x.LineID);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Tasks",
                 columns: table => new
@@ -38,6 +52,9 @@ namespace XuongMayBE.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Tasks");
+
+            migrationBuilder.DropTable(
+                name: "ProductionLines");
         }
     }
 }

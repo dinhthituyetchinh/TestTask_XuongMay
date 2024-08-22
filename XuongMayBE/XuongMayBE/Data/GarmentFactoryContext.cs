@@ -15,8 +15,6 @@ namespace XuongMayBE.Data
             _configuration = configuration;
         }
 
-        public DbSet<ProductionLine> ProductionLines { get; set; }
-        public DbSet<Tasks> Tasks { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -39,10 +37,26 @@ namespace XuongMayBE.Data
         #region Dbset
         public DbSet<Product>? Products { get; set; }
         public DbSet<Category>? Categories { get; set; }
-
+        public DbSet<ProductionLine> ProductionLines { get; set; }
+        public DbSet<Tasks> Tasks { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            // tao productionline va tasks:
+            modelBuilder.Entity<ProductionLine>(entity =>
+            {
+                entity.HasKey(e => e.LineID);
+                entity.Property(e => e.LineName).IsRequired();
+            });
+
+            modelBuilder.Entity<Tasks>(entity =>
+            {
+                entity.HasKey(e => e.TaskID);
+                entity.Property(e => e.TaskName).IsRequired();
+                entity.HasOne(d => d.ProductionLine)
+                      .WithMany(p => p.Tasks)
+                      .HasForeignKey(d => d.LineID);
+            });
 
             // Seed data for Category
             modelBuilder.Entity<Category>().HasData(
@@ -80,6 +94,7 @@ namespace XuongMayBE.Data
 );
 
         }
+        
         public DbSet<Users> Users { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
