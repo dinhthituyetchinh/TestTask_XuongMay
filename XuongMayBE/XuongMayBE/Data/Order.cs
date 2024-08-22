@@ -3,13 +3,20 @@ using System.ComponentModel.DataAnnotations;
 
 namespace XuongMayBE.Data
 {
+    [Table("Orders")]
     public class Order
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Đánh dấu là IDENTITY
-        public int OrderID { get; set; }
-        public string OrderName { get; set; }
+        public int Id { get; set; }
+        [MaxLength(100)]
+        public string? OrderName { get; set; }
         public DateTime OrderDate { get; set; }
-        public decimal TotalAmount { get; set; }
+        public decimal Price { get; set; }
+        [ForeignKey("Product")]
+        public int ProductID { get; set; }
+        public Product? Product { get; set; }
+        public int Quantity { get; set; }
+        [NotMapped]
+        public decimal TotalAmount => (decimal)(Product != null ? Price * Quantity : 0);
     }
 }

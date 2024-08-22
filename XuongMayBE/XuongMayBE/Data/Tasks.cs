@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace XuongMayBE.Data
 {
-    [Table("Tasks")]
+
     public class Tasks
     {
         [Key]

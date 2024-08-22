@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using XuongMayBE.Repositories;
-using XuongMayBE.Service;
 using Microsoft.OpenApi.Models;
 using XuongMayBE.Models;
 
@@ -80,9 +79,7 @@ builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 
 
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
-builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IOrderDetailRepository, OrderDetailRepository>();
-builder.Services.AddScoped<IOrderDetailService, OrderDetailService>();
 // Configures authentication using JWT Bearer tokens.
 builder.Services.AddAuthentication(options =>
 {

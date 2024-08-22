@@ -18,17 +18,18 @@ namespace XuongMayBE.Controllers
         {
             _productRepository = productRepository;
         }
-       
+
         [HttpGet]
         [Anthorization("User")]
         public async Task<IActionResult> GetAllProducts(int page)
         {
             try
             {
-                
+
                 return Ok(await _productRepository.GetAllProductAsync(page));
 
-            }catch
+            }
+            catch
             {
                 return BadRequest();
             }
@@ -59,15 +60,15 @@ namespace XuongMayBE.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProduct(int id, ProductModels productModels)
         {
-            if(id != productModels.Id)
+            if (id != productModels.Id)
             {
                 return NotFound();
-            }    
+            }
             await _productRepository.UpdateProductAsync(id, productModels);
             return Ok();
         }
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteProduct([FromRoute]int id)
+        public async Task<IActionResult> DeleteProduct([FromRoute] int id)
         {
 
             await _productRepository.DeleteProductAsync(id);

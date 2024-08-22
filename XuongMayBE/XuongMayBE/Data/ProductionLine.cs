@@ -12,5 +12,6 @@ namespace XuongMayBE.Data
         public string LineName { get; set; }
         public int WorkerCount { get; set; }
         public virtual ICollection<Tasks> Tasks { get; set; }
+
     }
 }

@@ -28,11 +28,11 @@ namespace XuongMayBE.Repositories
         public async Task DeleteProductAsync(int id)
         {
             var deleteProd = _context.Products!.Where(x => x.Id == id).FirstOrDefault();
-            if(deleteProd != null)
+            if (deleteProd != null)
             {
                 _context.Products!.Remove(deleteProd);
                 await _context.SaveChangesAsync();
-            }    
+            }
         }
 
         public async Task<List<ProductModels>> GetAllProductAsync(int page)
@@ -51,11 +51,11 @@ namespace XuongMayBE.Repositories
 
         public async Task UpdateProductAsync(int id, ProductModels productModel)
         {
-            if(id == productModel.Id)
+            if (id == productModel.Id)
             {
                 var updateProduct = _mapper.Map<Product>(productModel);
                 _context.Products!.Update(updateProduct);
-               await _context.SaveChangesAsync();
+                await _context.SaveChangesAsync();
 
             }
         }

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using XuongMayBE.Data;
 
@@ -11,9 +12,10 @@ using XuongMayBE.Data;
 namespace XuongMayBE.Migrations
 {
     [DbContext(typeof(GarmentFactoryContext))]
-    partial class GarmentFactoryContextModelSnapshot : ModelSnapshot
+    [Migration("20240822142422_SeedOrder")]
+    partial class SeedOrder
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -175,12 +177,11 @@ namespace XuongMayBE.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FirstName")
-
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
-
-
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("LockoutEnabled")
@@ -244,27 +245,10 @@ namespace XuongMayBE.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Category");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Clothing"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "Accessories"
-                        });
                 });
 
             modelBuilder.Entity("XuongMayBE.Data.Order", b =>
                 {
-                    b.Property<int>("OrderID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderID"), 1L, 1);
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
@@ -275,29 +259,9 @@ namespace XuongMayBE.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("OrderName")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
-                        .IsRequired()
-
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("TotalAmount")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("OrderID");
-
-                    b.ToTable("Orders");
-                });
-
-            modelBuilder.Entity("XuongMayBE.Data.OrderDetail", b =>
-                {
-                    b.Property<int>("OrderDetailID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderDetailID"), 1L, 1);
-
-                    b.Property<int>("OrderID")
-                        .HasColumnType("int");
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
@@ -307,16 +271,6 @@ namespace XuongMayBE.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<decimal>("UnitPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("OrderDetailID");
-
-                    b.HasIndex("OrderID");
-
-                    b.HasIndex("ProductID");
-
-                    b.ToTable("OrderDetails");
                     b.HasKey("Id");
 
                     b.HasIndex("ProductID");
@@ -382,234 +336,6 @@ namespace XuongMayBE.Migrations
                     b.HasIndex("CategoryID");
 
                     b.ToTable("Product");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CategoryID = 1,
-                            Description = "Cotton T-Shirt",
-                            Name = "T-Shirt",
-                            Price = 19.989999999999998,
-                            Quantity = 50
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CategoryID = 1,
-                            Description = "Denim Jeans",
-                            Name = "Jeans",
-                            Price = 49.990000000000002,
-                            Quantity = 30
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CategoryID = 2,
-                            Description = "Baseball Cap",
-                            Name = "Hat",
-                            Price = 15.99,
-                            Quantity = 100
-                        },
-                        new
-                        {
-                            Id = 4,
-                            CategoryID = 1,
-                            Description = "Leather Jacket",
-                            Name = "Jacket",
-                            Price = 89.989999999999995,
-                            Quantity = 20
-                        },
-                        new
-                        {
-                            Id = 5,
-                            CategoryID = 1,
-                            Description = "Woolen Socks",
-                            Name = "Socks",
-                            Price = 5.9900000000000002,
-                            Quantity = 150
-                        },
-                        new
-                        {
-                            Id = 6,
-                            CategoryID = 2,
-                            Description = "Silk Scarf",
-                            Name = "Scarf",
-                            Price = 25.989999999999998,
-                            Quantity = 80
-                        },
-                        new
-                        {
-                            Id = 7,
-                            CategoryID = 2,
-                            Description = "Winter Gloves",
-                            Name = "Gloves",
-                            Price = 12.99,
-                            Quantity = 70
-                        },
-                        new
-                        {
-                            Id = 8,
-                            CategoryID = 1,
-                            Description = "Woolen Sweater",
-                            Name = "Sweater",
-                            Price = 35.990000000000002,
-                            Quantity = 40
-                        },
-                        new
-                        {
-                            Id = 9,
-                            CategoryID = 2,
-                            Description = "Leather Belt",
-                            Name = "Belt",
-                            Price = 29.989999999999998,
-                            Quantity = 60
-                        },
-                        new
-                        {
-                            Id = 10,
-                            CategoryID = 2,
-                            Description = "Running Shoes",
-                            Name = "Shoes",
-                            Price = 59.990000000000002,
-                            Quantity = 25
-                        },
-                        new
-                        {
-                            Id = 11,
-                            CategoryID = 1,
-                            Description = "Casual Shorts",
-                            Name = "Shorts",
-                            Price = 19.989999999999998,
-                            Quantity = 90
-                        },
-                        new
-                        {
-                            Id = 12,
-                            CategoryID = 2,
-                            Description = "Snapback Cap",
-                            Name = "Cap",
-                            Price = 15.99,
-                            Quantity = 110
-                        },
-                        new
-                        {
-                            Id = 13,
-                            CategoryID = 1,
-                            Description = "Evening Dress",
-                            Name = "Dress",
-                            Price = 99.989999999999995,
-                            Quantity = 15
-                        },
-                        new
-                        {
-                            Id = 14,
-                            CategoryID = 1,
-                            Description = "Silk Blouse",
-                            Name = "Blouse",
-                            Price = 39.990000000000002,
-                            Quantity = 50
-                        },
-                        new
-                        {
-                            Id = 15,
-                            CategoryID = 2,
-                            Description = "Analog Watch",
-                            Name = "Watch",
-                            Price = 199.99000000000001,
-                            Quantity = 10
-                        },
-                        new
-                        {
-                            Id = 16,
-                            CategoryID = 2,
-                            Description = "Polarized Sunglasses",
-                            Name = "Sunglasses",
-                            Price = 49.990000000000002,
-                            Quantity = 60
-                        },
-                        new
-                        {
-                            Id = 17,
-                            CategoryID = 2,
-                            Description = "Silk Tie",
-                            Name = "Tie",
-                            Price = 25.989999999999998,
-                            Quantity = 100
-                        },
-                        new
-                        {
-                            Id = 18,
-                            CategoryID = 2,
-                            Description = "Travel Backpack",
-                            Name = "Backpack",
-                            Price = 79.989999999999995,
-                            Quantity = 20
-                        },
-                        new
-                        {
-                            Id = 19,
-                            CategoryID = 1,
-                            Description = "Business Suit",
-                            Name = "Suit",
-                            Price = 249.99000000000001,
-                            Quantity = 15
-                        },
-                        new
-                        {
-                            Id = 20,
-                            CategoryID = 1,
-                            Description = "Cotton Polo Shirt",
-                            Name = "Polo Shirt",
-                            Price = 29.989999999999998,
-                            Quantity = 40
-                        },
-                        new
-                        {
-                            Id = 21,
-                            CategoryID = 2,
-                            Description = "Casual Sneakers",
-                            Name = "Sneakers",
-                            Price = 69.989999999999995,
-                            Quantity = 30
-                        },
-                        new
-                        {
-                            Id = 22,
-                            CategoryID = 1,
-                            Description = "Cotton Joggers",
-                            Name = "Joggers",
-                            Price = 39.990000000000002,
-                            Quantity = 70
-                        },
-                        new
-                        {
-                            Id = 23,
-                            CategoryID = 2,
-                            Description = "Leather Wallet",
-                            Name = "Wallet",
-                            Price = 39.990000000000002,
-                            Quantity = 80
-                        },
-                        new
-                        {
-                            Id = 24,
-                            CategoryID = 2,
-                            Description = "Beach Sandals",
-                            Name = "Sandals",
-                            Price = 19.989999999999998,
-                            Quantity = 50
-                        },
-                        new
-                        {
-                            Id = 25,
-                            CategoryID = 2,
-                            Description = "Winter Beanie",
-                            Name = "Beanie",
-                            Price = 12.99,
-                            Quantity = 100
-                        });
-
                 });
 
             modelBuilder.Entity("XuongMayBE.Data.ProductionLine", b =>
@@ -621,9 +347,7 @@ namespace XuongMayBE.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LineID"), 1L, 1);
 
                     b.Property<string>("LineName")
-
                         .IsRequired()
-
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("WorkerCount")
@@ -645,9 +369,10 @@ namespace XuongMayBE.Migrations
                     b.Property<int>("LineID")
                         .HasColumnType("int");
 
-                    b.Property<string>("TaskName")
-                        .IsRequired()
+                    b.Property<int>("OrderID")
+                        .HasColumnType("int");
 
+                    b.Property<string>("TaskName")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("TaskID");
@@ -661,25 +386,11 @@ namespace XuongMayBE.Migrations
 
             modelBuilder.Entity("XuongMayBE.Models.Users", b =>
                 {
-
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
-
-                    b.Property<int>("UserID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserID"), 1L, 1);
-
-                    b.Property<int>("AccessFailedCount")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ConcurrencyStamp")
-                        .HasColumnType("nvarchar(max)");
-
 
                     b.Property<DateTime>("CreateTime")
                         .HasColumnType("datetime2");
@@ -707,62 +418,6 @@ namespace XuongMayBE.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("EmailConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("FirstName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("LockoutEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTimeOffset?>("LockoutEnd")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<DateTime>("ModifyTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("NormalizedEmail")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("NormalizedUserName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Password")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PasswordHash")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Phone")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("PhoneNumberConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Role")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SecurityStamp")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("TwoFactorEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("UserName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("UserID");
                     b.HasKey("ID");
 
                     b.ToTable("Users");
@@ -819,65 +474,46 @@ namespace XuongMayBE.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("XuongMayBE.Data.OrderDetail", b =>
+            modelBuilder.Entity("XuongMayBE.Data.Order", b =>
                 {
+                    b.HasOne("XuongMayBE.Data.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("XuongMayBE.Data.Product", b =>
+                {
+                    b.HasOne("XuongMayBE.Data.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("XuongMayBE.Data.Tasks", b =>
+                {
+                    b.HasOne("XuongMayBE.Data.ProductionLine", "ProductionLine")
+                        .WithMany()
+                        .HasForeignKey("LineID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("XuongMayBE.Data.Order", "Order")
                         .WithMany()
                         .HasForeignKey("OrderID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Order");
+
+                    b.Navigation("ProductionLine");
                 });
-
-                    modelBuilder.Entity("XuongMayBE.Data.Order", b =>
-                        {
-                            b.HasOne("XuongMayBE.Data.Product", "Product")
-                                .WithMany()
-                                .HasForeignKey("ProductID")
-                                .OnDelete(DeleteBehavior.Cascade)
-                                .IsRequired();
-
-                            b.Navigation("Order");
-
-                            b.Navigation("Product");
-                        });
-
-                    modelBuilder.Entity("XuongMayBE.Data.Product", b =>
-                        {
-                            b.HasOne("XuongMayBE.Data.Category", "Category")
-                                .WithMany()
-                                .HasForeignKey("CategoryID")
-                                .OnDelete(DeleteBehavior.Cascade)
-                                .IsRequired();
-
-                            b.Navigation("Category");
-                        });
-
-                    modelBuilder.Entity("XuongMayBE.Data.Tasks", b =>
-                        {
-                            b.HasOne("XuongMayBE.Data.ProductionLine", "ProductionLine")
-                                .WithMany("Tasks")
-                              
-                                .HasForeignKey("LineID")
-                                .OnDelete(DeleteBehavior.Cascade)
-                                .IsRequired();
-
-                            b.Navigation("ProductionLine");
-                        });
-
-                    modelBuilder.Entity("XuongMayBE.Data.ProductionLine", b =>
-                        {
-                            b.Navigation("Tasks");
-                            b.HasOne("XuongMayBE.Data.Order", "Order")
-                                .WithMany()
-                                .HasForeignKey("OrderID")
-                                .OnDelete(DeleteBehavior.Cascade)
-                                .IsRequired();
-
-                            b.Navigation("Order");
-
-                            b.Navigation("ProductionLine");
-                        });
-            
 #pragma warning restore 612, 618
         }
     }

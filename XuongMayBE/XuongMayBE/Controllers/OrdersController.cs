@@ -1,88 +1,75 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using XuongMayBE.Models;
+using XuongMayBE.Repositories;
 using XuongMayBE.Attribute;
-using XuongMayBE.Data;
-using XuongMayBE.Service;
+
 
 namespace XuongMayBE.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
-
+    [ApiController]
     [Anthorization("Admin")]
+
     public class OrdersController : ControllerBase
     {
-        private readonly IOrderService _orderService;
+        private readonly IOrderRepository _orderRepository;
 
-        public OrdersController(IOrderService orderService)
+        public OrdersController(IOrderRepository orderRepository)
         {
-            _orderService = orderService;
+            _orderRepository = orderRepository;
         }
 
-        // GET: api/Orders
         [HttpGet]
-
-        [Anthorization("Line Leader")]
-        public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
+        public async Task<IActionResult> GetAllOrders()
         {
-            var orders = await _orderService.GetAllOrdersAsync();
-            return Ok(orders);
-        }
-
-        // GET: api/Orders/5
-        [HttpGet("{id}")]
-
-        [Anthorization("Line Leader")]
-        public async Task<ActionResult<Order>> GetOrder(int id)
-        {
-            var order = await _orderService.GetOrderByIdAsync(id);
-
-            if (order == null)
+            try
             {
-                return NotFound();
+                return Ok(await _orderRepository.GetAllOrderAsync());
             }
-
-            return Ok(order);
-        }
-
-        // POST: api/Orders
-        [HttpPost]
-        public async Task<ActionResult<Order>> PostOrder(Order order)
-        {
-            await _orderService.AddOrderAsync(order);
-            return CreatedAtAction(nameof(GetOrder), new { id = order.OrderID }, order);
-        }
-
-        // PUT: api/Orders/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutOrder(int id, Order order)
-        {
-            if (id != order.OrderID)
+            catch
             {
                 return BadRequest();
             }
-
-            if (!await _orderService.OrderExistsAsync(id))
-            {
-                return NotFound();
-            }
-
-            await _orderService.UpdateOrderAsync(order);
-            return NoContent();
         }
 
-        // DELETE: api/Orders/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteOrder(int id)
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetOrderById(int id)
         {
-            if (!await _orderService.OrderExistsAsync(id))
+            var order = await _orderRepository.GetOrderByIdAsync(id);
+            return order == null ? NotFound() : Ok(order);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddNewOrder(OrderModel orderModel)
+        {
+            try
+            {
+                var newOrderId = await _orderRepository.AddOrderAsync(orderModel);
+                return CreatedAtAction(nameof(GetOrderById), new { id = newOrderId }, newOrderId);
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateOrder(int id, OrderModel orderModel)
+        {
+            if (id != orderModel.Id)
             {
                 return NotFound();
             }
+            await _orderRepository.UpdateOrderAsync(id, orderModel);
+            return Ok();
+        }
 
-            await _orderService.DeleteOrderAsync(id);
-            return NoContent();
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteOrder([FromRoute] int id)
+        {
+            await _orderRepository.DeleteOrderAsync(id);
+            return Ok();
         }
     }
 }

@@ -1,53 +1,59 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Graph.Models;
+using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using XuongMayBE.Data;
+using XuongMayBE.Models;
 
 namespace XuongMayBE.Repositories
 {
     public class OrderRepository : IOrderRepository
     {
         private readonly GarmentFactoryContext _context;
+        private readonly IMapper _mapper;
 
-        public OrderRepository(GarmentFactoryContext context)
+        public OrderRepository(GarmentFactoryContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
-        public async Task<IEnumerable<Order>> GetAllOrdersAsync()
+        public async Task<int> AddOrderAsync(OrderModel orderModel)
         {
-            return await _context.Orders.ToListAsync();
-        }
-
-        public async Task<Order> GetOrderByIdAsync(int id)
-        {
-            return await _context.Orders.FindAsync(id);
-        }
-
-        public async Task AddOrderAsync(Order order)
-        {
-            _context.Orders.Add(order);
+            var newOrder = _mapper.Map<Order>(orderModel);
+            _context.Orders!.Add(newOrder);
             await _context.SaveChangesAsync();
-        }
-
-        public async Task UpdateOrderAsync(Order order)
-        {
-            _context.Entry(order).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
+            return newOrder.Id;
         }
 
         public async Task DeleteOrderAsync(int id)
         {
-            var order = await _context.Orders.FindAsync(id);
-            if (order != null)
+            var orderToDelete = _context.Orders!.Where(x => x.Id == id).FirstOrDefault();
+            if (orderToDelete != null)
             {
-                _context.Orders.Remove(order);
+                _context.Orders!.Remove(orderToDelete);
                 await _context.SaveChangesAsync();
             }
         }
 
-        public async Task<bool> OrderExistsAsync(int id)
+        public async Task<IEnumerable<OrderModel>> GetAllOrderAsync()
         {
-            return await _context.Orders.AnyAsync(e => e.OrderID == id);
+            var orders = await _context.Orders!.ToListAsync();
+            return _mapper.Map<IEnumerable<OrderModel>>(orders);
+        }
+
+        public async Task<OrderModel> GetOrderByIdAsync(int id)
+        {
+            var order = await _context.Orders!.FindAsync(id);
+            return _mapper.Map<OrderModel>(order);
+        }
+
+        public async Task UpdateOrderAsync(int id, OrderModel orderModel)
+        {
+            if (id == orderModel.Id)
+            {
+                var updateOrder = _mapper.Map<Order>(orderModel);
+                _context.Orders!.Update(updateOrder);
+                await _context.SaveChangesAsync();
+            }
         }
     }
 }

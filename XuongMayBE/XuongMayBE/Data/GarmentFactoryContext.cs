@@ -5,7 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Graph.Models;
 namespace XuongMayBE.Data
 {
-    public class GarmentFactoryContext : IdentityDbContext<ApplicationUser> 
+
+    public class GarmentFactoryContext : IdentityDbContext<ApplicationUser>
     {
         private readonly IConfiguration _configuration;
 
@@ -15,6 +16,7 @@ namespace XuongMayBE.Data
             _configuration = configuration;
         }
 
+      
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -92,6 +94,35 @@ namespace XuongMayBE.Data
     new Product { Id = 24, Name = "Sandals", Description = "Beach Sandals", Price = 19.99, Quantity = 50, CategoryID = 2 },
     new Product { Id = 25, Name = "Beanie", Description = "Winter Beanie", Price = 12.99, Quantity = 100, CategoryID = 2 }
 );
+            modelBuilder.Entity<Order>().HasData(
+               new Order
+               {
+                   Id = 1,
+                   OrderName = "Order 1",
+                   OrderDate = new DateTime(2024, 8, 22),
+                   Price = 99.99m,
+                   Quantity = 10,
+                   ProductID = 101
+               },
+               new Order
+               {
+                   Id = 2,
+                   OrderName = "Order 2",
+                   OrderDate = new DateTime(2024, 8, 23),
+                   Price = 149.50m,
+                   Quantity = 5,
+                   ProductID = 102
+               },
+               new Order
+               {
+                   Id = 3,
+                   OrderName = "Order 3",
+                   OrderDate = new DateTime(2024, 8, 24),
+                   Price = 299.99m,
+                   Quantity = 2,
+                   ProductID = 103
+               }
+           );
 
         }
         
@@ -100,5 +131,5 @@ namespace XuongMayBE.Data
         public DbSet<OrderDetail> OrderDetails { get; set; }
         #endregion
 
-    }  
+    }    
 }
