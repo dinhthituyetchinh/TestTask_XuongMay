@@ -1,97 +1,59 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using XuongMayBE.Data;
+using XuongMayBE.Repositories;
 
-[ApiController]
 [Route("api/[controller]")]
-public class ProductionLinesController : ControllerBase
+[ApiController]
+public class ProductionLineController : ControllerBase
 {
-    private readonly GarmentFactoryContext _context;
+    private readonly IMapper _mapper;
+    private readonly IProductionLineRepository _productionLineRepository;
 
-    public ProductionLinesController(GarmentFactoryContext context)
+    public ProductionLineController(IMapper mapper, IProductionLineRepository productionLineRepository)
     {
-        _context = context;
+        _mapper = mapper;
+        _productionLineRepository = productionLineRepository;
     }
 
-    // GET: api/ProductionLines
+    // GET: api/ProductionLine
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<ProductionLine>>> GetProductionLines()
+    public async Task<ActionResult<IEnumerable<ProductionLineDTO>>> GetProductionLines()
     {
-        return await _context.ProductionLines.ToListAsync();
+        var productionLines = await _productionLineRepository.GetAllAsync();
+        var productionLineDTOs = _mapper.Map<IEnumerable<ProductionLineDTO>>(productionLines);
+        return Ok(productionLineDTOs);
     }
 
-    // GET: api/ProductionLines/5
-    [HttpGet("{id}")]
-    public async Task<ActionResult<ProductionLine>> GetProductionLine(int id)
-    {
-        var productionLine = await _context.ProductionLines.FindAsync(id);
-
-        if (productionLine == null)
-        {
-            return NotFound();
-        }
-
-        return productionLine;
-    }
-
-    // POST: api/ProductionLines
+    // POST: api/ProductionLine
     [HttpPost]
-    public async Task<ActionResult<ProductionLine>> PostProductionLine(ProductionLine productionLine)
+    public async Task<ActionResult<ProductionLineDTO>> CreateProductionLine(ProductionLineDTO productionLineDTO)
     {
-        _context.ProductionLines.Add(productionLine);
-        await _context.SaveChangesAsync();
-
-        return CreatedAtAction(nameof(GetProductionLine), new { id = productionLine.LineID }, productionLine);
+        var productionLine = _mapper.Map<ProductionLine>(productionLineDTO);
+        await _productionLineRepository.AddAsync(productionLine);
+        return CreatedAtAction(nameof(GetProductionLines), new { id = productionLine.LineID }, productionLineDTO);
     }
 
-    // PUT: api/ProductionLines/5
+    // PUT: api/ProductionLine/{id}
     [HttpPut("{id}")]
-    public async Task<IActionResult> PutProductionLine(int id, ProductionLine productionLine)
+    public async Task<IActionResult> UpdateProductionLine(int id, ProductionLineDTO productionLineDTO)
     {
-        if (id != productionLine.LineID)
+        if (id != productionLineDTO.LineID)
         {
             return BadRequest();
         }
 
-        _context.Entry(productionLine).State = EntityState.Modified;
-
-        try
-        {
-            await _context.SaveChangesAsync();
-        }
-        catch (DbUpdateConcurrencyException)
-        {
-            if (!ProductionLineExists(id))
-            {
-                return NotFound();
-            }
-            else
-            {
-                throw;
-            }
-        }
+        var productionLine = _mapper.Map<ProductionLine>(productionLineDTO);
+        await _productionLineRepository.UpdateAsync(productionLine);
 
         return NoContent();
     }
 
-    // DELETE: api/ProductionLines/5
+    // DELETE: api/ProductionLine/{id}
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteProductionLine(int id)
     {
-        var productionLine = await _context.ProductionLines.FindAsync(id);
-        if (productionLine == null)
-        {
-            return NotFound();
-        }
-
-        _context.ProductionLines.Remove(productionLine);
-        await _context.SaveChangesAsync();
-
+        await _productionLineRepository.DeleteAsync(id);
         return NoContent();
-    }
-
-    private bool ProductionLineExists(int id)
-    {
-        return _context.ProductionLines.Any(e => e.LineID == id);
     }
 }

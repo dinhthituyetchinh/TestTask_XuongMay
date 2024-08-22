@@ -1,39 +1,38 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using XuongMayBE.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using XuongMayBE.Data;
 using XuongMayBE.Repositories;
 using XuongMayBE.Service;
-
-
+using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
-builder.Services.AddCors(options => options.AddDefaultPolicy(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
-
-builder.Services.AddDbContext<GarmentFactoryContext>(option =>
-{ option.UseSqlServer(builder.Configuration.GetConnectionString("GarmentFactory")); });
+// CORS configuration: Allow any origin, header, and method.
+builder.Services.AddCors(options =>
+    options.AddDefaultPolicy(policy =>
+        policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
 
 // Đăng kí sử dụng AutoMapper
 builder.Services.AddAutoMapper(typeof(Program));
 
-//Đăng kí class ProductRepository implement cho IProductRepository
+// Dependency Injection for Repositories and Services
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
-
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-
-builder.Services.AddCors(options => options.AddDefaultPolicy(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
-
-builder.Services.AddCors(options => options.AddDefaultPolicy(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IOrderDetailRepository, OrderDetailRepository>();
+builder.Services.AddScoped<IOrderDetailService, OrderDetailService>();
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 
 // Configures the application's DbContext with a SQL Server database connection.
 builder.Services.AddDbContext<GarmentFactoryContext>(options =>
@@ -44,16 +43,6 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<GarmentFactoryContext>()
     .AddDefaultTokenProviders();
 
-// Registers the AccountRepository with a scoped lifetime, ensuring a new instance is created per request.
-builder.Services.AddScoped<IAccountRepository, AccountRepository>();
-
-builder.Services.AddScoped<IOrderRepository, OrderRepository>();
-
-
-builder.Services.AddScoped<IOrderRepository, OrderRepository>();
-builder.Services.AddScoped<IOrderService, OrderService>();
-builder.Services.AddScoped<IOrderDetailRepository, OrderDetailRepository>();
-builder.Services.AddScoped<IOrderDetailService, OrderDetailService>();
 // Configures authentication using JWT Bearer tokens.
 builder.Services.AddAuthentication(options =>
 {
@@ -64,7 +53,7 @@ builder.Services.AddAuthentication(options =>
 {
     options.SaveToken = true;
     options.RequireHttpsMetadata = false;
-    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+    options.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuer = true,
         ValidateAudience = true,
@@ -73,7 +62,14 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:Secret"]))
     };
 });
-
+builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddScoped<IProductionLineRepository, ProductionLineRepository>();
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+    });
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -83,12 +79,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
-
 // Redirects HTTP requests to HTTPS.
 app.UseHttpsRedirection();
 
-// Enables authorization middleware.
+// Enables authentication and authorization middleware.
+app.UseAuthentication();
 app.UseAuthorization();
 
 // Maps controllers to endpoints.
