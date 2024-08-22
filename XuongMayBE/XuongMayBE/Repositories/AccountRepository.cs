@@ -10,30 +10,28 @@ namespace XuongMayBE.Repositories
 {
     public class AccountRepository : IAccountRepository
     {
-        private readonly UserManager<ApplicationUser> userManager;
-        private readonly SignInManager<ApplicationUser> signInManager;
+        private readonly GarmentFactoryContext context;
+        private readonly UserManager<Users> userManager;
+        private readonly SignInManager<Users> signInManager;
         private readonly IConfiguration configuration;
 
-        public AccountRepository(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, IConfiguration configuration)
+        public AccountRepository(UserManager<Users> userManager, SignInManager<Users> signInManager, IConfiguration configuration, GarmentFactoryContext context)
         {
             this.userManager = userManager;
             this.signInManager = signInManager;
             this.configuration = configuration;
+            this.context = context;
+
         }
 
         public async Task<string> SignInAsync(SignInModel model)
         {
-            var result = await signInManager.PasswordSignInAsync(model.Email, model.Password, false, false);
-
-            if (!result.Succeeded)
-            {
-                return string.Empty;
-            }
-
+            var user = Users.GetUserByEmail(this.context, model.Email);
             var authClaims = new List<Claim>
             {
-                new Claim(ClaimTypes.Email, model.Email),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim(ClaimTypes.Role, user.Role)
             };
 
             var authenKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT:Secret"]));
@@ -51,13 +49,16 @@ namespace XuongMayBE.Repositories
 
         public async Task<IdentityResult> SignUpAsync(SignUpModel model)
         {
-            var user = new ApplicationUser
+            var user = new Users
             {
                 FirstName = model.FirstName,
                 LastName = model.LastName,
                 Email = model.Email,
+                Phone = model.Phone,
+                Password = model.Password,
                 UserName = model.Email
             };
+            user.SetRole("User");
 
             return await userManager.CreateAsync(user, model.Password);
         }

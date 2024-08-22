@@ -1,11 +1,14 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.PowerBI.Api;
+using XuongMayBE.Attribute;
 using XuongMayBE.Data;
 using XuongMayBE.Models;
 
 namespace XuongMayBE.Controllers
 {
     [Route("api/[controller]")]
+    [Anthorization("Admin")]
     [ApiController]
     public class UsersController : ControllerBase
     {
@@ -16,34 +19,64 @@ namespace XuongMayBE.Controllers
         }
         [HttpGet()]
         [Route("GetUsers")]
-        public List<Users> GetUsers()
+        public List<Models.Users> GetUsers()
         {
             return garmentFactoryContext.Users.ToList();
         }
         [HttpPost]
         [Route("CreateUser")]
-        public string CreateUser(Users users)
+        public IActionResult CreateUser([FromBody] Models.Users newUser)
         {
-            
-            garmentFactoryContext.Users.Add(users);
-            garmentFactoryContext.SaveChanges();
-            return "User Created";
+            if (newUser == null)
+            {
+                return BadRequest("User object cannot be null");
+            }
+
+            try
+            {
+                garmentFactoryContext.Users.Add(newUser);
+                garmentFactoryContext.SaveChanges();
+                return CreatedAtAction("GetUsers", new { id = newUser.UserID }, newUser);
+            }
+            catch (Exception ex)
+            {
+                // Xử lý lỗi và trả về mã trạng thái HTTP thích hợp
+                return StatusCode(500, $"An error occurred while creating the user: {ex.Message}");
+            }
         }
-        [HttpPost]
-        [Route("UpdateUser")]
-        public string UpdateUser(Users user)
+        [HttpPut("{id}")]
+        public IActionResult UpdateUser(int id, Models.Users updatedUser)
         {
+            var user = garmentFactoryContext.Users.Find(id);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+
+            // Cập nhật các thuộc tính của đối tượng user
+            user.FirstName = updatedUser.FirstName;
+            user.LastName = updatedUser.LastName;
+            user.Email = updatedUser.Email;
+            user.Phone = updatedUser.Phone;
+            user.Password = updatedUser.Password;
+            user.Role = updatedUser.Role;
+
             garmentFactoryContext.Entry(user).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
             garmentFactoryContext.SaveChanges();
-            return "User Updated";
+            return Ok("User Updated");
         }
-        [HttpPost]
-        [Route("DeleteUser")]
-        public string DeleteUser(Users user)
+        [HttpDelete("{id}")]
+        public IActionResult DeleteUser(int id)
         {
+            var user = garmentFactoryContext.Users.Find(id);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+
             garmentFactoryContext.Users.Remove(user);
             garmentFactoryContext.SaveChanges();
-            return "User Deleted";
+            return Ok("User Deleted");
         }
     }
 }

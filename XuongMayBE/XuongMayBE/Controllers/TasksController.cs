@@ -1,10 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using XuongMayBE.Data;
+using XuongMayBE.Attribute;
+
 
 namespace XuongMayBE.Controllers
 {
     [Route("api/[controller]")]
+    [Anthorization("Admin")]
+    [Anthorization("Line Leader")]
     [ApiController]
     public class TasksController : ControllerBase
     {
@@ -19,7 +23,7 @@ namespace XuongMayBE.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Tasks>>> GetTasks()
         {
-            return await _context.Tasks.Include(t => t.ProductionLine).ToListAsync(); 
+            return await _context.Tasks.Include(t => t.ProductionLine).ToListAsync();
         }
 
         // GET: api/Tasks/5

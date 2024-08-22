@@ -1,10 +1,12 @@
-﻿using AutoMapper;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using XuongMayBE.Data;
 using XuongMayBE.Repositories;
+using XuongMayBE.Attribute;
 
 [Route("api/[controller]")]
 [ApiController]
+[Anthorization("Admin")]
 public class ProductionLineController : ControllerBase
 {
     private readonly IMapper _mapper;

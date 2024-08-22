@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+using Microsoft.AspNetCore.Identity;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Xml.Linq;
@@ -6,12 +7,14 @@ using XuongMayBE.Data;
 
 namespace XuongMayBE.Models
 {
-    public class Users
+    public class Users : IdentityUser
     {
         [Key]
-        public int ID { get; set; }
+        public int UserID { get; set; }
 
-        public string UserName { get; set; }
+        public string FirstName { get; set; }
+        [Required]
+        public string LastName { get; set; }
 
         public string Email { get; set; }
 
@@ -21,19 +24,22 @@ namespace XuongMayBE.Models
 
         public DateTime CreateTime { get; private set; }
 
-        public DateTime ModifyTime { get; private set; } 
+        public DateTime ModifyTime { get; private set; }
 
-        public string RoleID { get; set; }
-
+        public string Role { get; set; }
+        public void SetRole(string role)
+        {
+            Role = role;
+        }
         public Users()
         {
             CreateTime = DateTime.Now;
-            ModifyTime = CreateTime;
+            ModifyTime = DateTime.Now;
         }
-        public static Users GetUserByUsername(GarmentFactoryContext context, string username)
+        public static Users GetUserByEmail(GarmentFactoryContext context, string email)
         {
             // Lấy thông tin người dùng từ SQL
-            return context.Users.FirstOrDefault(u => u.UserName == username);
+            return context.Users.FirstOrDefault(u => u.Email == email);
         }
     }
 }

@@ -29,8 +29,8 @@ public class UserAuthorizationController : ControllerBase
     [HttpPost("login")]
     public IActionResult Login([FromBody] UserRequestModel userRequestModel)
     {
-        // Lấy thông tin người dùng từ SQL dựa trên username
-        var user = Users.GetUserByUsername(_context, userRequestModel.UserName);
+        // Lấy thông tin người dùng từ SQL dựa trên email
+        var user = XuongMayBE.Models.Users.GetUserByEmail(_context, userRequestModel.Email);
 
         // Kiểm tra thông tin đăng nhập từ cơ sở dữ liệu hoặc dịch vụ xác thực
         if (user == null || !VerifyPassword(user, userRequestModel.Password))
@@ -44,13 +44,13 @@ public class UserAuthorizationController : ControllerBase
         var key = _configuration["Jwt:Key"];
 
         // Gán vai trò cho người dùng dựa trên thông tin đăng nhập
-        var role = user.RoleID == "Admin" ? "Admin" : "Line Leader";
+        var role = user.Role == "Admin" ? "Admin" : "Line Leader";
 
         var claims = new List<Claim>
         {
-            new Claim(ClaimTypes.Name, userRequestModel.UserName),
+            new Claim(ClaimTypes.Email, userRequestModel.Email),
             new Claim(ClaimTypes.Role, role),
-            new Claim("FullName", "Tran Quyet Tai"),
+            new Claim("Email", "Tran Quyet Tai"),
         };
 
         var keyBytes = Encoding.ASCII.GetBytes(key);

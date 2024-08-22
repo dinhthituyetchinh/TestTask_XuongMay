@@ -35,8 +35,8 @@ namespace XuongMayBE.Data
 
 
         #region Dbset
-        public DbSet<Product>? Products { get; set; }
-        public DbSet<Category>? Categories { get; set; }
+        public DbSet<Product> ?Products { get; set; }
+        public DbSet<Category> ?Categories { get; set; }
         public DbSet<ProductionLine> ProductionLines { get; set; }
         public DbSet<Tasks> Tasks { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -95,7 +95,7 @@ namespace XuongMayBE.Data
 
         }
         
-        public DbSet<Users> Users { get; set; }
+        public DbSet<Models.Users> ?Users { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
         #endregion

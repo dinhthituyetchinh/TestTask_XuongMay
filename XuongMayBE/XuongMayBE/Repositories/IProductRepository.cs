@@ -6,6 +6,7 @@ namespace XuongMayBE.Repositories
     {
         //Lấy tất cả Product
         Task<List<ProductModels>> GetAllProductAsync(int page);
+
         //Lấy một Product
         Task<ProductModels> GetProductByIdAsync(int id);
         //Thêm

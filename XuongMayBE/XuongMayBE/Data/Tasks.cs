@@ -9,9 +9,9 @@ namespace XuongMayBE.Data
         [Key]
         public int TaskID { get; set; }
         [Required]
-        public string ?TaskName { get; set; }
+        public string TaskName { get; set; }
         public int LineID { get; set; }
         [ForeignKey("LineID")]
-        public virtual ProductionLine ?ProductionLine { get; set; }
+        public virtual ProductionLine ProductionLine { get; set; }
     }
 }

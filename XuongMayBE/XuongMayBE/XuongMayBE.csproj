@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
-		<Nullable>enable</Nullable>
+		<Nullable>disable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 
@@ -20,6 +20,9 @@
 		<PackageReference Include="Microsoft.Graph" Version="5.56.0" />
 		<PackageReference Include="Microsoft.PowerBI.Api" Version="4.20.0" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Helpers\" />
 	</ItemGroup>
 	<ItemGroup>
 		<Folder Include="Helpers\" />

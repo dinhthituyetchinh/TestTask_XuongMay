@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using XuongMayBE.Attribute;
 using XuongMayBE.Models;
 using XuongMayBE.Repositories;
 
@@ -7,6 +8,7 @@ using XuongMayBE.Repositories;
 namespace XuongMayBE.Controllers
 {
     [Route("api/[controller]")]
+    [Anthorization("Admin")]
     [ApiController]
     public class ProductsController : ControllerBase
     {
@@ -16,7 +18,9 @@ namespace XuongMayBE.Controllers
         {
             _productRepository = productRepository;
         }
+       
         [HttpGet]
+        [Anthorization("User")]
         public async Task<IActionResult> GetAllProducts(int page)
         {
             try
@@ -29,6 +33,7 @@ namespace XuongMayBE.Controllers
                 return BadRequest();
             }
         }
+
         [HttpGet("id")]
         public async Task<IActionResult> getProductByID(int id)
         {

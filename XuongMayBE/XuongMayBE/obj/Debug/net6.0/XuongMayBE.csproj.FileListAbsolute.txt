@@ -1,3 +1,10 @@
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.AssemblyReference.cache
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.AssemblyInfoInputs.cache
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.AssemblyInfo.cs
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.CoreCompileInputs.cache
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.MvcApplicationPartsAssemblyInfo.cs
+D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.MvcApplicationPartsAssemblyInfo.cache
 D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\appsettings.Development.json
 D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\appsettings.json
 D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\XuongMayBE.exe
@@ -248,13 +255,6 @@ D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes
 D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.AssemblyReference.cache
-D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.GeneratedMSBuildEditorConfig.editorconfig
-D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.AssemblyInfoInputs.cache
-D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.AssemblyInfo.cs
-D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.csproj.CoreCompileInputs.cache
-D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.MvcApplicationPartsAssemblyInfo.cs
-D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\XuongMayBE.MvcApplicationPartsAssemblyInfo.cache
 D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets.build.json
 D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\staticwebassets.development.json
 D:\Nam4_Ki1\ThucTap\Test_ThucTap\XuongMayBE\XuongMayBE\obj\Debug\net6.0\scopedcss\bundle\XuongMayBE.styles.css

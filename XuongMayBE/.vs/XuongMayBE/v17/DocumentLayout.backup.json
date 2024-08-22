@@ -1,6 +1,7 @@
 {
   "Version": 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\",
   "Documents": [
     {
@@ -129,6 +130,41 @@
       "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\acer\\onedrive\\desktop\\matchcode_final1\\xuongmaybe\\xuongmaybe\\migrations\\20240819154657_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\migrations\\20240819154657_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> Match_PhanQuyen_User
+=======
+  "WorkspaceRootPath": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\acer\\onedrive\\desktop\\testtask_xuongmay-main\\xuongmaybe\\xuongmaybe\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\acer\\onedrive\\desktop\\testtask_xuongmay-main\\xuongmaybe\\xuongmaybe\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\acer\\onedrive\\desktop\\testtask_xuongmay-main\\xuongmaybe\\xuongmaybe\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\acer\\onedrive\\desktop\\testtask_xuongmay-main\\xuongmaybe\\xuongmaybe\\controllers\\productionlinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\controllers\\productionlinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\acer\\onedrive\\desktop\\testtask_xuongmay-main\\xuongmaybe\\xuongmaybe\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\acer\\onedrive\\desktop\\testtask_xuongmay-main\\xuongmaybe\\xuongmaybe\\controllers\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\controllers\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\acer\\onedrive\\desktop\\testtask_xuongmay-main\\xuongmaybe\\xuongmaybe\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|c:\\users\\acer\\onedrive\\desktop\\testtask_xuongmay-main\\xuongmaybe\\xuongmaybe\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72F3AE5A-2398-4178-9A69-E42C9A902BE5}|XuongMayBE\\XuongMayBE.csproj|solutionrelative:xuongmaybe\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Match_Register_Login_PQ
     }
   ],
   "DocumentGroupContainers": [
@@ -139,12 +175,16 @@
         {
           "DockedWidth": 200,
 <<<<<<< HEAD
+<<<<<<< HEAD
           "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
 =======
           "SelectedChildIndex": 10,
+=======
+          "SelectedChildIndex": 11,
+>>>>>>> Match_Register_Login_PQ
           "Children": [
             {
               "$type": "Bookmark",
@@ -152,7 +192,10 @@
             },
             {
               "$type": "Bookmark",
+<<<<<<< HEAD
 >>>>>>> Match_PhanQuyen_User
+=======
+>>>>>>> Match_Register_Login_PQ
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
@@ -184,6 +227,7 @@
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
+<<<<<<< HEAD
 <<<<<<< HEAD
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -225,10 +269,23 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T07:55:00.366Z",
               "EditorCaption": ""
+=======
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "XuongMayBE\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:01:46.69Z"
+>>>>>>> Match_Register_Login_PQ
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
               "Title": "GarmentFactoryContext.cs",
               "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Data\\GarmentFactoryContext.cs",
               "RelativeDocumentMoniker": "XuongMayBE\\Data\\GarmentFactoryContext.cs",
@@ -237,10 +294,33 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T08:07:24.857Z",
+=======
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "XuongMayBE\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:01:10.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "XuongMayBE\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:00:43.037Z",
+>>>>>>> Match_Register_Login_PQ
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Program.cs",
@@ -277,10 +357,22 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T07:49:08.533Z",
               "EditorCaption": ""
+=======
+              "DocumentIndex": 3,
+              "Title": "ProductionLineController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\ProductionLineController.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Controllers\\ProductionLineController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\ProductionLineController.cs",
+              "RelativeToolTip": "XuongMayBE\\Controllers\\ProductionLineController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:00:13.39Z"
+>>>>>>> Match_Register_Login_PQ
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+<<<<<<< HEAD
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\Danh\\Downloads\\INTERN BE .NET\\Danh\\XuongMayBE\\XuongMayBE\\Service\\OrderService.cs",
               "RelativeDocumentMoniker": "XuongMayBE\\Service\\OrderService.cs",
@@ -581,6 +673,52 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T15:00:39.885Z"
 >>>>>>> Match_PhanQuyen_User
+=======
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Controllers\\OrderDetailRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\OrderDetailRepository.cs",
+              "RelativeToolTip": "XuongMayBE\\Controllers\\OrderDetailRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:00:01.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "XuongMayBE\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowDcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T12:58:51.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "XuongMayBE\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T12:58:27.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "XuongMayBE\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\TestTask_XuongMay-main\\XuongMayBE\\XuongMayBE\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "XuongMayBE\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T12:58:21.018Z"
+>>>>>>> Match_Register_Login_PQ
             }
           ]
         },

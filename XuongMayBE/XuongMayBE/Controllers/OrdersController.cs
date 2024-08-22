@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using XuongMayBE.Attribute;
 using XuongMayBE.Data;
 using XuongMayBE.Service;
 
@@ -8,6 +9,8 @@ namespace XuongMayBE.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+
+    [Anthorization("Admin")]
     public class OrdersController : ControllerBase
     {
         private readonly IOrderService _orderService;
@@ -19,6 +22,8 @@ namespace XuongMayBE.Controllers
 
         // GET: api/Orders
         [HttpGet]
+
+        [Anthorization("Line Leader")]
         public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
         {
             var orders = await _orderService.GetAllOrdersAsync();
@@ -27,6 +32,8 @@ namespace XuongMayBE.Controllers
 
         // GET: api/Orders/5
         [HttpGet("{id}")]
+
+        [Anthorization("Line Leader")]
         public async Task<ActionResult<Order>> GetOrder(int id)
         {
             var order = await _orderService.GetOrderByIdAsync(id);
