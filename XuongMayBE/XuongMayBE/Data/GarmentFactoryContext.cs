@@ -55,7 +55,9 @@ namespace XuongMayBE.Data
                 entity.Property(e => e.TaskName).IsRequired();
                 entity.HasOne(d => d.ProductionLine)
                       .WithMany(p => p.Tasks)
-                      .HasForeignKey(d => d.LineID);
+                      .HasForeignKey(d => d.LineID)
+                       .IsRequired(false);  // Đảm bảo rằng ProductionLine không bắt buộc
+
             });
 
             // Seed data for Category

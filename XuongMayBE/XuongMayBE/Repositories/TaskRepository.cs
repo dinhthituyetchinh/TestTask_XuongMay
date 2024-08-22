@@ -31,8 +31,12 @@ namespace XuongMayBE.Repositories
 
         public async Task UpdateAsync(Tasks task)
         {
-            _context.Tasks.Update(task);
-            await _context.SaveChangesAsync();
+            var existingTask = await _context.Tasks.FindAsync(task.TaskID);
+            if (existingTask != null)
+            {
+                _context.Entry(existingTask).CurrentValues.SetValues(task);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task DeleteAsync(int id)
